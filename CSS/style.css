@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-lighter: #EBF0FD;
+    --color-dark: #23272A;
+    --color-lightblue: #8EA1E1;
+}
+
+header {
+    height: 100vh;
+}
+
+.container {
+    width: 1200px;
+}
