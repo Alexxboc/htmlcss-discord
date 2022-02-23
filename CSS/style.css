@@ -145,6 +145,7 @@ header ul {
 
 .main.container {
     padding: 70px 0;
+    text-align: center;
 }
 .main.container>.content{
     float: left;
@@ -190,6 +191,37 @@ svg {
 
 .container_gray {
     background-color: var(--bg_lightgray);
+}
+
+.item_text h2,p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.item_text>h2 {
+    font-size: 30px;
+}
+
+.item_img,.stars_text, .download_button{
+    text-align: center;
+}
+
+.stars {
+    margin-left: 425px;
+}
+
+.download_button {
+    padding: 20px 0;
+}
+
+.download {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: var(--color-lightblue);
+    font-family: var(--main-font);
+    color: var(--color-lighter);
+    
 }
 
 
