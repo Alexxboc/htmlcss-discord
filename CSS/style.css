@@ -141,34 +141,43 @@ header ul {
 
 /* Main */
 
-.main.container>.section {
+.main.container {
+    padding: 70px 0;
+}
+.main.container>.content{
     float: left;
 }
 
-main.container .section.top.left {
+.main.container .content.img {
     width: 70%;
 }
 
-.main.container .section.top.right {
+.content.text {
     width: 30%;
     padding: 50px 0;
 }
 
-.section.top>img {
+
+.content.img img {
     height: 500px;
     width: 90%;
     
 }
 
-.section.top h2 {
+.content_title {
     font-size: 50px;
     font-weight: 900;
 }
 
-.section.top.right>.section.paragraph {
+ .content_paragraph {
     font-size: 15px;
     padding: 20px 0;
 }
+
+.container_gray {
+    background-color: lightgray;
+}
+
 
 
 
