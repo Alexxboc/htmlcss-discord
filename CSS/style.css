@@ -1,7 +1,10 @@
+/* Common rules */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -10,10 +13,21 @@
     --color-lightblue: #8EA1E1;
 }
 
-header {
-    height: 100vh;
+img {
+    max-width: 100%;
 }
 
 .container {
     width: 1200px;
+    margin: auto;
+    background-color: red;
 }
+
+
+/* Header */
+
+header {
+    height: 100vh;
+    background-image: url(../img/jumbo.png);
+}
+
