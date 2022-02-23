@@ -11,7 +11,9 @@
     --color-lighter: #EBF0FD;
     --color-dark: #23272A;
     --color-lightblue: #8EA1E1;
+    --bg_lightgray: #F6F6F6;
     --main-font: 'Montserrat', sans-serif;
+
 }
 
 img {
@@ -174,9 +176,22 @@ header ul {
     padding: 20px 0;
 }
 
-.container_gray {
-    background-color: lightgray;
+svg {
+    display: block;
 }
+
+.wave.rotate {
+    transform: rotate(180deg);
+}
+
+.wave svg path {
+    fill: var(--bg_lightgray);
+}
+
+.container_gray {
+    background-color: var(--bg_lightgray);
+}
+
 
 
 
