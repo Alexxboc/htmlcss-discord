@@ -11,6 +11,7 @@
     --color-lighter: #EBF0FD;
     --color-dark: #23272A;
     --color-lightblue: #8EA1E1;
+    --main-font: 'Montserrat', sans-serif;
 }
 
 img {
@@ -20,7 +21,11 @@ img {
 .container {
     width: 1200px;
     margin: auto;
-    background-color: red;
+    
+}
+
+.p_relative {
+    position: relative;
 }
 
 
@@ -30,4 +35,60 @@ header {
     height: 100vh;
     background-image: url(../img/jumbo.png);
 }
+
+.header.container{
+    padding: 40px 0;
+}
+
+nav>.logo.header, 
+.top_nav, 
+.top_nav.button {
+    display: inline-block;
+}
+
+.menu {
+    text-align: center;
+}
+
+.logo.header
+{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.logo.header>img {
+    vertical-align: middle;
+}
+
+
+header ul {
+    list-style: none;
+}
+
+.top_nav.links>li{
+    display: inline-block;
+}
+
+.top_nav.links a {
+    text-decoration: none;
+    color: var(--color-lighter);
+    font-weight: bold;
+}
+
+.button {
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.button>button {
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: var(--color-lighter);
+    font-style: var(--main-font);
+}
+
+
 
