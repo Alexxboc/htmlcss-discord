@@ -29,6 +29,12 @@ img {
     position: relative;
 }
 
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
 
 /* Header */
 
@@ -98,7 +104,7 @@ header ul {
     transform: translate(-50%, -50%);
 }
 
-.section_header>h1, p, .download_buttons {
+.section_header> h1,.header_p,.download_buttons {
     text-align: center;
     color: var(--color-lighter);
 
@@ -134,6 +140,39 @@ header ul {
  
 
 /* Main */
+
+.main.container>.section {
+    float: left;
+}
+
+main.container .section.top.left {
+    width: 70%;
+}
+
+.main.container .section.top.right {
+    width: 30%;
+    padding: 50px 0;
+}
+
+.section.top>img {
+    height: 500px;
+    width: 90%;
+    
+}
+
+.section.top h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.section.top.right>.section.paragraph {
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+
+
+
 
 
 
